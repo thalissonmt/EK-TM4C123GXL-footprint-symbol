@@ -207,9 +207,9 @@
 <pad name="P49" x="45.72" y="12.7" drill="0.6"/>
 </package>
 <package name="MSP430AFE253_ADAPTER">
-<description>&lt;h3&gt;Plated Through Hole -12 Pin&lt;/h3&gt;
+<description>&lt;h3&gt;Adapter for MSP430AFE_253&lt;/h3&gt;
 &lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:12&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt;Pin count:24&lt;/li&gt;
 &lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;Example device(s):
@@ -499,7 +499,7 @@
 <text x="3.048" y="7.62" size="1.27" layer="95">P1.6/SOMI0/TA2/TCK</text>
 <text x="-1.524" y="10.16" size="1.27" layer="95">P1.7/UCLK0/TA1/TDO/TDI</text>
 <text x="-1.27" y="12.7" size="1.27" layer="95">P2.0/STE0/TA0/TDI/TCLK</text>
-<text x="-9.144" y="-19.558" size="1.778" layer="94">MSP430AFE253</text>
+<text x="-11.684" y="-19.558" size="1.778" layer="94">MSP430AFE253_ADAPTER</text>
 <pin name="1" x="-24.384" y="13.462" visible="pin" length="middle"/>
 <pin name="2" x="-24.384" y="10.922" visible="pin" length="middle"/>
 <pin name="3" x="-24.384" y="8.382" visible="pin" length="middle"/>
@@ -584,9 +584,36 @@
 </deviceset>
 <deviceset name="MSP430AFE253_ADAPTER">
 <gates>
+<gate name="G$1" symbol="MSP430AFE_24TSSOP" x="-2.54" y="2.54"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="MSP430AFE253_ADAPTER">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
