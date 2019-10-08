@@ -1,5 +1,4 @@
-# EK-TM4C123GXL-footprint-symbol
-EK-TM4C123GXL EAGLE CAD Models: Symbol and Footprint 
+# Eagle CAD - footprint and symbol
 
 This library was done to EAGLE CAD program.
 
